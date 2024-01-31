@@ -175,6 +175,13 @@ namespace LogicBuilder.Expressions.Utils.Expansions
                 }
                 else
                 {
+                    if (parent.Type != parts[i].ParentType)
+                    {
+                        //Handle cast in $expand
+                        //e.g. /opstenant?$expand=Buildings($expand=Domain.OData.DerivedBuilding/DerivedBuildingProperty)
+                        parent = Expression.Convert(parent, parts[i].ParentType);
+                    }
+
                     parent = Expression.MakeMemberAccess(parent, parent.Type.GetMemberInfo(parts[i].MemberName));
 
                     if (parent.Type.IsList())
