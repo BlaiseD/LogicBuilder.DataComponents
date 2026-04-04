@@ -1,4 +1,15 @@
 # LogicBuilder.DataComponents
+
+LogicBuilder.DataComponents is archived and is no longer being maintained. Please find the composite libraries at their new locations below:
+- [LogicBuilder.Data](https://github.com/BpsLogicBuilder/LogicBuilder.Data)
+- [LogicBuilder.Domain](https://github.com/BpsLogicBuilder/LogicBuilder.Domain)
+- [LogicBuilder.EntityFrameworkCore.SqlServer](https://github.com/BpsLogicBuilder/LogicBuilder.EntityFrameworkCore.SqlServer)
+- [LogicBuilder.Expressions.Utils](https://github.com/BpsLogicBuilder/LogicBuilder.Expressions.Utils)
+- [LogicBuilder.Kendo.ExpressionExtensions](https://github.com/BpsLogicBuilder/LogicBuilder.Kendo.ExpressionExtensions)
+- [LogicBuilder.Structures](https://github.com/BpsLogicBuilder/LogicBuilder.Structures)
+
+LogicBuilder.Expressions.EntityFrameworkCore is no longer being maintained.
+
 Packages in this repository include abstractions for mapping LINQ expresions and objects between business and data objects types.
 
 ## LogicBuilder.EntityFrameworkCore.SqlServer
